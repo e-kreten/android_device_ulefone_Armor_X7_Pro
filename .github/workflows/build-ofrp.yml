@@ -64,7 +64,7 @@ jobs:
     - name: Clone Device Tree
       run: |
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_${{ inputs.MANIFEST_BRANCH }}
-        git clone https://github.com/micr0softstore/android_device_ulefone_Armor_X7_Pro -b twrp_Armor_X7_Pro-eng-20.1.0-QQ3A.200805.001-eng.micr0softstore.20210331.164908-test-keys ./device/ulefone/Armor_X7_Pro
+        git clone https://github.com/e-kreten/android_device_ulefone_Armor_X7_Pro -b twrp_Armor_X7_Pro-eng-20.1.0-QQ3A.200805.001-eng.micr0softstore.20210331.164908-test-keys ./device/ulefone/Armor_X7_Pro
         cd device/ulefone/Armor_X7_Pro
         echo "COMMIT_ID=$(git rev-parse HEAD)" >> $GITHUB_ENV
 

@@ -1,4 +1,7 @@
-# Android device tree for Ulefone Armor X7 Pro (Armor_X7_Pro)
+# Twrp device tree for Ulefone Armor X7 / X7 Pro (Armor_X7_Pro)
+Maintained by: @micr0softstore
+Device: Ulefone Armor X7 / X7 Pro
+Kernel: Stock from X7 Pro, no src avilable..
 
 ```
 #
